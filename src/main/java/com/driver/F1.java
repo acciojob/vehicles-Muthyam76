@@ -44,9 +44,7 @@ public class F1 extends Car {
         if(newSpeed>250){
             this.changeGear(6);
         }
-
-
-
+//git
         if(newSpeed > 0) {
             changeSpeed(newSpeed, getCurrentDirection());
         }
